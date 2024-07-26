@@ -22,7 +22,7 @@ public class Payroll {
         System.out.print("what is your hourly pay rate? : ");
         payRate = keyboard.nextDouble();
         grossPay = hours * payRate;
-        System.out.print("Hello" + name);
+        System.out.println("Hello " + name);
         System.out.print("Your gross pay is " + grossPay);
     }
 }
