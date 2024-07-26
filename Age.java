@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Age {
+    public static void main(String[] args) {
+        final int AGE = 20;
+        int inputage;
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter your age : ");
+        inputage = scan.nextInt();
+        System.out.println("you Enter : " + inputage);
+        if(inputage < 20)
+            System.out.println("you are still young");
+            System.out.println("Good bye");
+    }
+}
