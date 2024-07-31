@@ -17,7 +17,6 @@ public class SwitchDemo {
                 break;
             default:
                 System.out.println("that's not 1, 2, or 3");
-                break;
         }
     }
 }     
