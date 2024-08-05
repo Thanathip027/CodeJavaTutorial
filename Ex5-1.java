@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Ex5_1 {
+public class Ex5-1 {
     public static double calculateTriangleArea(double base, double height) {
         return 0.5 * base * height;
     }
@@ -13,11 +13,9 @@ public class Ex5_1 {
 
         System.out.print("Enter the height of the triangle: ");
         double height = scanner.nextDouble();
-
      
         double area = calculateTriangleArea(base, height);
 
-       
         System.out.println("The area of the triangle is: " + area);
 
         scanner.close();
