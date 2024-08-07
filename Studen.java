@@ -17,7 +17,7 @@ public class Studen {
         sc1.setDetails("12123", "Thanathip", 4.00);
         sc1.showDetails();
         Studen sc2 = new Studen();
-        sc2.setDetails("34123","Thanathip55",3.99);
+        sc2.setDetails("34123","Thanathip",3.99);
         sc2.showDetails();
     }
 }
